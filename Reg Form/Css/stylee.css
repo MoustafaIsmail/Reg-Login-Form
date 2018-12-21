@@ -1,0 +1,85 @@
+/*
+---FONTS---
+*/
+.robo   {font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;}
+.poppin {font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;}
+/******************************************************************************/
+
+/*
+---PAGE WRAPPER---
+*/
+.wrapper {min-height: 800px;}
+body     {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+/******************************************************************************/
+
+/*
+---BACK GROUND---
+*/
+.bg-1{
+  background: linear-gradient(120grad, rgb(100, 57, 134), rgb(152, 174, 213));
+}
+
+.card{
+  max-width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  max-height: 600px;
+  border: 2px solid #004A95;
+  border-radius: 20px;
+  padding-bottom: 70px;
+}
+
+.form-icon{
+  height: 150px;
+  width: 150px;
+}
+
+.card-title{
+  overflow: hidden;
+}
+.title{
+  color: #004A95;
+  border-left: 2px solid #004A95;
+}
+
+.input-style-1 {
+  line-height: 48px;
+  background: #fafafa;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+  transition: all 0.4s ease;
+}
+
+.label{
+
+  font-size: 16px;
+}
+
+.btn{
+  color: #004A95;
+  border-color: #004A95;
+}
+.btn:hover{
+  background-color: #004A95;
+}
+
+#login:hover{
+  color: white;
+}
+
+
+.form-icon:hover{
+transform: rotate(360deg);
+ transition: all 0.5s ease-in-out 0s;
+}
+
+input:hover{
+  border-color: #004A95;
+}
